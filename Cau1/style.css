@@ -1,0 +1,12 @@
+input {
+    margin: 20px;
+    padding: 5px 20px; 
+}
+
+input[type='submit'] {
+    border: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 500;
+}
