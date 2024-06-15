@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Trang thuê xe</title>
     <script src="https://cdn.cdnhub.io/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <style>
         table {
             width: 100%;
@@ -15,6 +18,50 @@
         th, td {
             padding: 8px;
             text-align: left;
+        }
+        * {
+            font-family: "Roboto Mono", monospace;
+            background-color: #f4f4f9; 
+        }
+        input[type="date"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        button {
+            border-radius: 10px;
+            padding: 10px 20px;
+            color:white;
+            font-weight: 500;
+        }
+        .unrent-btn{
+            background-color: red;
+        }
+        .rent-btn{
+            background-color: greenyellow;
+            color:black
         }
     </style>
 </head>

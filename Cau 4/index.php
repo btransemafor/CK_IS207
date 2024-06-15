@@ -69,7 +69,7 @@
                     },
                     dataType: 'json',
                     success: function(data) {
-                        console.log("Server response:", data); // Log the response to the console
+                        console.log("Server response:", data); 
                         var stt = 1;
                         var text = `
                         <table border="1">
